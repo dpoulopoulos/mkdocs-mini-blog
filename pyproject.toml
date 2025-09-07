@@ -37,3 +37,16 @@ Documentation = "https://dpoulopoulos.github.io/mkdocs-mini-blog/"
 
 [project.entry-points."mkdocs.themes"]
 mini-blog = "mkdocs_mini_blog"
+
+[dependency-groups]
+dev = [
+    "commitizen>=4.8.3",
+]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "pep440"
+version_provider = "uv"
+update_changelog_on_bump = true
+major_version_zero = true
