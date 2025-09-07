@@ -1,3 +1,9 @@
+## 0.1.0 (2025-09-07)
+
+### Feat
+
+- **theme**: use github theme for highlight.js
+
 ## 0.1.0a0 (2025-09-07)
 
 The project is a fork of [mkdocs-simple-blog](https://github.com/FernandoCelmer/mkdocs-simple-blog) by Fernando Celmer.
