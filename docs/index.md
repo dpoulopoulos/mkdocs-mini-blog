@@ -1,6 +1,6 @@
 # Home
 
-February 4, 2025
+September 7, 2025
 
 ---
 
@@ -49,24 +49,13 @@ theme:
 
 ## Getting Help
 
-We use GitHub issues for tracking bugs and feature requests and have limited bandwidth to address them. If you need anything, I ask you to please follow our templates for opening issues or discussions.
+We use GitHub issues for tracking bugs and feature requests and have limited bandwidth to address them. If you need
+anything, I ask you to please follow our templates for opening issues or discussions.
 
 - 🐛 [Bug Report](https://github.com/dpoulopoulos/mkdocs-mini-blog/issues/new/choose)
 - 📕 [Documentation Issue](https://github.com/dpoulopoulos/mkdocs-mini-blog/issues/new/choose)
 - 🚀 [Feature Request](https://github.com/dpoulopoulos/mkdocs-mini-blog/issues/new/choose)
 - 💬 [General Question](https://github.com/dpoulopoulos/mkdocs-mini-blog/issues/new/choose)
-
-## Commit Style
-
-- ⚙️ FEATURE
-- 📝 PEP8
-- 📌 ISSUE
-- 🪲 BUG
-- 📘 DOCS
-- 📦 PyPI
-- ❤️️ TEST
-- ⬆️ CI/CD
-- ⚠️ SECURITY
 
 ## License
 ![GitHub License](https://img.shields.io/github/license/dpoulopoulos/mkdocs-mini-blog)

@@ -1,77 +1,47 @@
 # Development guide
 
-Last updated January 28, 2024
+September 7, 2024
 
 ---
 
 ## How to test the local package?
 
-#### Virtual environment
+### Prerequisites
 
-- Create your virtual environment.
-
-```bash
-python -m venv venv
-```
-
-#### Environment activation
-
-- Activate the virtual environment.
+Install uv (if not already installed):
 
 ```bash
-source venv/bin/activate
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-#### Install the requirements
+### Environment Setup
 
-- Install the necessary requirements to be able to test the application.
+Create and sync virtual environment with dependencies:
 
 ```bash
-pip install -r requirements.txt --no-cache-dir
+uv sync --dev
 ```
 
-#### Development
+This command automatically creates a virtual environment and installs all dependencies defined in `pyproject.toml`.
 
-- Make your changes as desired in the `./mkdocs_simple_blog` folder. You can enjoy and change whatever you want, please have fun.
+### Development
+
+Make your changes as desired in the `./src/mkdocs_mini_blog/` folder. You can enjoy and change whatever you want,
+please have fun.
 
 ```bash
-ls mkdocs_simple_blog
+ls src/mkdocs_mini_blog
 ```
 
-#### Build and Install
+### Test
 
-- Run the script that creates and installs the local package.
-
-
-```bash
-python scripts/install_local.py
-```
-
-#### Test
-
-- Run the following command to run the server.
+Run the following command to start the development server:
 
 ```bash
 mkdocs serve
 ```
 
-#### View Template
-
-- Now you can access the [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-
----
-
-## Commit Style
-
-- ⚙️ FEATURE
-- 📝 PEP8
-- 📌 ISSUE
-- 🪲 BUG
-- 📘 DOCS
-- 📦 PyPI
-- ❤️️ TEST
-- ⬆️ CI/CD
-- ⚠️ SECURITY
+Now you can access the [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ## License
 
