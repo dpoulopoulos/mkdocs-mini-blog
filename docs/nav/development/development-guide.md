@@ -75,6 +75,6 @@ mkdocs serve
 
 ## License
 
-![GitHub](https://img.shields.io/github/license/FernandoCelmer/mkdocs-simple-blog?style=flat-square)
+![GitHub](https://img.shields.io/github/license/dpoulopoulos/mkdocs-mini-blog?style=flat-square)
 
 This project is licensed under the terms of the MIT license.

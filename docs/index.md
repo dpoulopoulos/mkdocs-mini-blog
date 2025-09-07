@@ -35,26 +35,26 @@ pip install mkdocs
 Install the theme using PIP:
 
 ```bash
-pip install mkdocs-simple-blog
+pip install mkdocs-mini-blog
 ```
 
 ## Activating theme
 
-After the theme is installed, edit your `mkdocs.yml` file and set the theme name to `simple-blog`:
+After the theme is installed, edit your `mkdocs.yml` file and set the theme name to `mini-blog`:
 
 ```yml
 theme:
-    name: simple-blog
+    name: mini-blog
 ```
 
 ## Getting Help
 
 We use GitHub issues for tracking bugs and feature requests and have limited bandwidth to address them. If you need anything, I ask you to please follow our templates for opening issues or discussions.
 
-- 🐛 [Bug Report](https://github.com/FernandoCelmer/mkdocs-simple-blog/issues/new/choose)
-- 📕 [Documentation Issue](https://github.com/FernandoCelmer/mkdocs-simple-blog/issues/new/choose)
-- 🚀 [Feature Request](https://github.com/FernandoCelmer/mkdocs-simple-blog/issues/new/choose)
-- 💬 [General Question](https://github.com/FernandoCelmer/mkdocs-simple-blog/issues/new/choose)
+- 🐛 [Bug Report](https://github.com/dpoulopoulos/mkdocs-mini-blog/issues/new/choose)
+- 📕 [Documentation Issue](https://github.com/dpoulopoulos/mkdocs-mini-blog/issues/new/choose)
+- 🚀 [Feature Request](https://github.com/dpoulopoulos/mkdocs-mini-blog/issues/new/choose)
+- 💬 [General Question](https://github.com/dpoulopoulos/mkdocs-mini-blog/issues/new/choose)
 
 ## Commit Style
 
@@ -69,6 +69,6 @@ We use GitHub issues for tracking bugs and feature requests and have limited ban
 - ⚠️ SECURITY
 
 ## License
-![GitHub License](https://img.shields.io/github/license/FernandoCelmer/mkdocs-simple-blog)
+![GitHub License](https://img.shields.io/github/license/dpoulopoulos/mkdocs-mini-blog)
 
 This project is licensed under the terms of the MIT License.

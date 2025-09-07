@@ -3,14 +3,15 @@ requires = ["uv_build>=0.8.15,<0.9.0"]
 build-backend = "uv_build"
 
 [project]
-name = "mkdocs-simple-blog"
-version = "0.2.0"
-description = "Mkdocs Blog Theme"
+name = "mkdocs-mini-blog"
+version = "0.0.1"
+description = "A minimal blog theme for MkDocs."
 readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.9"
 authors = [
     {name = "Fernando Celmer", email = "email@fernandocelmer.com"},
+    {name = "Dimitrios Poulopoulos", email = "dimitris.a.poulopoulos@gmail.com"},
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -29,10 +30,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/FernandoCelmer/mkdocs-simple-blog"
-Issues = "https://github.com/FernandoCelmer/mkdocs-simple-blog/issues"
-Repository = "https://github.com/FernandoCelmer/mkdocs-simple-blog"
-Documentation = "https://fernandocelmer.github.io/mkdocs-simple-blog/"
+Homepage = "https://github.com/dpoulopoulos/mkdocs-mini-blog"
+Issues = "https://github.com/dpoulopoulos/mkdocs-mini-blog/issues"
+Repository = "https://github.com/dpoulopoulos/mkdocs-mini-blog"
+Documentation = "https://dpoulopoulos.github.io/mkdocs-mini-blog/"
 
 [project.entry-points."mkdocs.themes"]
-simple-blog = "mkdocs_simple_blog"
+mini-blog = "mkdocs_mini_blog"

@@ -17,14 +17,14 @@ pip install mkdocs
 Install the theme using PIP:
 
 ```bash
-pip install mkdocs-simple-blog
+pip install mkdocs-mini-blog
 ```
 
 ## Activating theme
 
-After the theme is installed, edit your `mkdocs.yml` file and set the theme name to `simple-blog`:
+After the theme is installed, edit your `mkdocs.yml` file and set the theme name to `mini-blog`:
 
 ```yml
 theme:
-    name: simple-blog
+    name: mini-blog
 ```
