@@ -1,0 +1,43 @@
+name: Documentation
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Documentation: https://github.com/lycheeverse/lychee?tab=readme-ov-file#commandline-parameters
+          args: --base . --verbose --no-progress './**/*.md'  './**/*.rst' --exclude 'mailto:|localhost|127.0.0.1'
+
+      - name: Install uv
+        run: curl -LsSf https://astral.sh/uv/install.sh | sh
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: MkDocs Build
+        run: uv run mkdocs build
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        # Upload the generated 'site' directory as a Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
