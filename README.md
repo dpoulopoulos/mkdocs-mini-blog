@@ -1,10 +1,8 @@
 # MkDocs Mini Blog
 
-![GitHub forks](https://img.shields.io/github/forks/dpoulopoulos/mkdocs-mini-blog?label=Forks&style=flat-square)
-![GitHub Repo stars](https://img.shields.io/github/stars/dpoulopoulos/mkdocs-mini-blog?label=Stars&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/dpoulopoulos/mkdocs-mini-blog?style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dpoulopoulos/mkdocs-mini-blog/python-publish-pypi.yml?label=%F0%9F%93%A6%20PyPI&style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dpoulopoulos/mkdocs-mini-blog/python-publish-pypi-test.yml?label=%F0%9F%93%A6%20PyPI-Test&style=flat-square)
+[![Documentation](https://github.com/dpoulopoulos/mkdocs-mini-blog/actions/workflows/documentation.yml/badge.svg)](https://github.com/dpoulopoulos/mkdocs-mini-blog/actions/workflows/documentation.yml)
+[![Publish to PyPI](https://github.com/dpoulopoulos/mkdocs-mini-blog/actions/workflows/release.yml/badge.svg)](https://github.com/dpoulopoulos/mkdocs-mini-blog/actions/workflows/release.yml)
+
 
 Mini Blog is a theme for [MkDocs](https://www.mkdocs.org/), a static site generator that's geared towards building
 project documentation. Follow the instructions below to install and activate the theme. For full documentation visit the
