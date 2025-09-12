@@ -4,7 +4,7 @@ build-backend = "uv_build"
 
 [project]
 name = "mkdocs-mini-blog"
-version = "0.1.0"
+version = "0.1.1"
 description = "A minimal blog theme for MkDocs, based on the MkDocs Simple Blog, by Fernando Celmer."
 readme = "README.md"
 license = {file = "LICENSE"}

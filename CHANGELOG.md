@@ -1,3 +1,9 @@
+## 0.1.1 (2025-09-12)
+
+### Fix
+
+- **footer**: give more space to the source component
+
 ## 0.1.0 (2025-09-07)
 
 ### Feat
